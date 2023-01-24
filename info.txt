@@ -1,0 +1,15 @@
+npm run dev 
+
+npx prisma studio - prisma 
+
+npx prisma migrate dev - detecta as mudanças feitas na tabela 
+
+npm i -D prisma-erd-generator @mermaid-js/mermaid-cli - instala gerador de erd 
+
+npx prisma generate - cria o diagrama
+
+npx prisma db seed - roda o arquivo seed.ts
+
+generator erd {
+  provider = "prisma-erd-generator"
+}
